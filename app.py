@@ -11,7 +11,7 @@ def pred_output(user_input):
 
 
 def main(): 
-    st.title("Titanic Classification - rubangino.in")
+    st.title("Titanic Classification ")
 
     # Input Variables 
     passenger_class = st.text_input("Enter the passenger class: (1/2/3)")
