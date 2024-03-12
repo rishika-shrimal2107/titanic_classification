@@ -2,7 +2,7 @@ import pickle
 import streamlit as st  
 import numpy as np 
 
-model_file = pickle.load(open('notebook/model.pkl','rb'))
+model_file = pickle.load(open('notebook/model(1).pkl','rb'))
 
 def pred_output(user_input): 
     model_input = np.array(user_input)
